@@ -96,3 +96,6 @@ dunder-mifflin-auditor/
 ├── README.md              # Documentação
 └── .env                   # Chave de API
 ```
+
+## Vídeo de explicação
+Acesse o vídeo clicando [aqui](https://drive.google.com/file/d/1gIe1SMT5U_RedH37zsyc3_fpAijjxZxX/view?usp=sharing)

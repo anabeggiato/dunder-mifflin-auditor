@@ -9,7 +9,7 @@ from src.data_analyst import (
     listar_maiores_gastos,
     calcular_estatisticas_categoria
 )
-# Nova importação aqui 👇
+
 from src.email_forensics import investigar_emails
 
 load_dotenv()
@@ -46,7 +46,6 @@ COMO RESOLVER PROBLEMAS COMPLEXOS (RACIOCÍNIO):
 SEMPRE justifique suas respostas com os dados encontrados.
 """
 
-# Usando o modelo 1.5 Flash (seguro e estável)
 model = genai.GenerativeModel(
     model_name="gemini-2.5-flash",
     tools=tools,
